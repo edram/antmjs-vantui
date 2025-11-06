@@ -3,8 +3,9 @@ on:
   # When Release Pull Request is merged
   pull_request:
     branches:
-      - main
+      - ci
     types: [closed]
+  workflow_dispatch:
 
 env:
   CI: true
