@@ -1,5 +1,5 @@
 {
-  "name": "@antmjs/vantui",
+  "name": "@edram/antmjs-vantui",
   "version": "3.7.0",
   "main": "lib/index.js",
   "module": "es/index.esm.js",

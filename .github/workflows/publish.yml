@@ -46,7 +46,7 @@ jobs:
       - name: build-cli
         run: npx lerna run build --scope=@antmjs/vantui-cli
       - name: build-ui
-        run: npx lerna run build --scope=@antmjs/vantui
+        run: npx lerna run build --scope=@edram/antmjs-vantui
       # Define ${CURRENT_VERSION}
       - name: Set Current Version
         shell: bash -ex {0}
